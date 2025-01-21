@@ -46,4 +46,4 @@ jobs:
       - name: Push Docker image to Private Docker Registry
         run: |
           docker tag ${{ secrets.DOCKER_USERNAME }}/flask-app:latest myprivateregistry.com/myprivateregistry/flask-app:latest
-          docker push myprivateregistry.com/myprivateregistry/flask-app:latest
+          docker push myprivateregistry.com/myprivateregistry/flask-app:latest 
